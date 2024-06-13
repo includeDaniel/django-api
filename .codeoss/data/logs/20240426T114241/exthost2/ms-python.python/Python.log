@@ -1,0 +1,89 @@
+2024-04-26 11:49:17.805 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/installed_check.py /home/danielzcomputacao/05-django/requirements.txt
+2024-04-26 11:49:17.805 [info] Test server listening.
+2024-04-26 11:49:17.805 [info] > conda info --json
+2024-04-26 11:49:17.808 [info] Found: /bin/python --> /usr/bin/python3.10
+2024-04-26 11:49:17.810 [info] Found: /bin/python2 --> /bin/python2.7
+2024-04-26 11:49:17.811 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-04-26 11:49:17.812 [info] Found: /bin/python3 --> /bin/python3.10
+2024-04-26 11:49:17.813 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-04-26 11:49:17.840 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2024-04-26 11:49:17.841 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-04-26 11:49:17.841 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-04-26 11:49:17.842 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-04-26 11:49:17.842 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-04-26 11:49:17.924 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+2024-04-26 11:49:17.962 [info] > /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+2024-04-26 11:49:18.020 [info] > /bin/python3 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+2024-04-26 11:49:18.023 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:18.023 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:18.027 [warning] Error: Command failed: /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:419:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1091:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py'
+}
+2024-04-26 11:49:18.029 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-04-26 11:49:18.062 [info] > /bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+2024-04-26 11:49:18.110 [info] > /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+2024-04-26 11:49:18.128 [warning] Error: Command failed: /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:419:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1091:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py'
+}
+2024-04-26 11:49:18.129 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-04-26 11:49:18.170 [info] > /usr/bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/pythonFiles/interpreterInfo.py
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-04-26 11:49:18.216 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-04-26 11:49:18.224 [info] Python interpreter path: /bin/python
+2024-04-26 11:49:19.532 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:19.532 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-26 11:49:20.892 [info] Starting Jedi language server for danielzcomputacao.
+2024-04-26 11:49:36.346 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/manage.py
+2024-04-26 11:52:25.155 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:52:25.465 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/I1RU.py
+2024-04-26 11:52:26.009 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:52:26.288 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/I1RU.py
+2024-04-26 11:52:49.211 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:52:49.487 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/vzVD.py
+2024-04-26 11:52:50.980 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:52:51.267 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/oU5j.py
+2024-04-26 11:52:53.446 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:52:53.699 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/MWsk.py
+2024-04-26 11:53:45.953 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:53:46.296 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/3Ef1.py
+2024-04-26 11:56:12.437 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:56:12.798 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/1gaT.py
+2024-04-26 11:56:15.486 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:56:15.825 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/i6ZL.py
+2024-04-26 11:56:17.292 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 11:56:17.576 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/i6ZL.py
+2024-04-26 12:06:54.501 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/gF1m.py
+2024-04-26 12:07:08.893 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 12:07:09.261 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/7fLa.py
+2024-04-26 12:07:16.873 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 12:07:17.232 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/7fLa.py
+2024-04-26 12:07:30.552 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/05-django/lojavirtual/settings.py
+2024-04-26 12:07:30.896 [info] Discover tests for workspace name: danielzcomputacao - uri: /home/danielzcomputacao/.codeoss/data/User/History/-6a65316f/j3tv.py
