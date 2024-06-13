@@ -11,3 +11,7 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 cls
+$ git config --global user.name "Daniel Nunes da Silva"
+$ git config --global user.email danielzcomputacaol@gmail.com
+$ git config --global user.name "Daniel Nunes da Silva"
+git
